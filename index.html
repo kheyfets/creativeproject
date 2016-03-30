@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MP Creative Project</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/cover.css" rel="stylesheet">
+    <link href="css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script src="js/jquery.min.js"></script>
+    <style>
+    #full-wrapper {
+      position: relative;
+      width: 244px;
+      height: 200px;
+      overflow: scroll;
+      margin: auto;
+    }
+
+    .zooming {
+      text-align: center;
+      position: relative;
+      font-size: 18px;
+    }
+
+    .zooming button {
+      border: 0;
+      background-color: transparent;
+      color: white;
+      outline: 0;
+    }
+
+    .analysis {
+      height: 400px;
+      overflow-y: scroll;
+      overflow-x: auto;
+      text-align: left;
+      padding-right: 5px;
+    }
+
+    #full-piece {
+      width: 400px;
+    }
+
+    .modal {
+      color: black;
+      text-shadow: none;
+    }
+
+    .modal-header {
+      text-align: center;
+      font-size: 2em;
+    }
+
+    .modal-body {
+      text-align: left;
+      font-size: 16px;
+    }
+
+    .masthead-brand {
+      outline: none;
+      border: 0;
+      cursor: pointer;
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+ 
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+ 
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(0,0,0,0.2); 
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    }
+
+    ::-webkit-scrollbar-thumb:window-inactive {
+      background: rgba(0,0,0,0.4); 
+    }
+    </style>
+  </head>
+  <body onload="init()">
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand"><a data-toggle="modal" data-target="#startup-modal">Dedication to Nymphe</a></h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a target="new" href="analysis.txt">Analysis</a></li>
+                  <li><a target="new" href="img/dedication-to-nymphe.jpg">Piece</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+
+            <div class="row">
+
+              <div class="col-md-6">
+                <img src="img/dedication-to-nymphe-min.jpg">
+                <div id="full-wrapper">
+                  <img id="full-piece" src="img/dedication-to-nymphe.jpg">
+                </div>
+                <div class="zooming">
+                  <button type="button" onclick="zoomIn()">
+                    <span class="glyphicon glyphicon-zoom-in"></span>
+                  </button>
+                  <button type="button" onclick="zoomOut()">
+                    <span class="glyphicon glyphicon-zoom-out"></span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="analysis">
+                Upon taking my first steps on the streets of Athens, I could already tell I was in a special place. This was where Plato wrote The Republic. This was where Socrates was executed. This has been the core of Greek civilization for over four thousand years. It has been a bastion for art and culture that epitomizes classical antiquity. And I, I had the privilege to experience it all: the history, the art, the culture, and the beauty. Athens was ancient and in beautiful ruins, with a history rooted in culture; that is what made it special. The featured attraction in Athens is the Acropolis. Making the Athenian skyline easily recognizable, <a target="new" href="img/skyline.jpg"><img style="width: 200px; float: right; padding: 10px" src="img/skyline.jpg"></a> the Acropolis is center of Athenian ancient history housing the Parthenon, the Propylaia, the Erechtheion and the Temple of Nike. Thus, the acropolis was my tour group’s main destination.
+                <br><hr>
+                Despite having this incredible cultural opportunity to experience classical antiquity first-hand, our privileged first-world personas overtook the academics in us when the clouds turned gray. <a target="new" href="img/acropolis-museum.jpg"><img style="width: 200px; float: left; padding: 10px" src="img/acropolis-museum.jpg"></a> After a horrible hike up the Acropolis in the unusually rainy Athenian weather, we reached the museum. We complained for a bit, and then entered. We were sent off to explore the art and the history. And when we began to experience the archeological wonders of that museum, we shut up about the weather and enjoyed.
+                <br><hr>
+                That museum housed some of the most iconic pieces of Greek art, most notably Kritos Boy. While seeing Kritos boy in person was an incredible experience that I have come to cherish as a high-school senior studying interdisciplinary humanities, <a target="new" href="img/kritos-boy.jpg"><img style="width: 200px; float: right; padding: 10px" src="img/kritos-boy.jpg"></a> it was not the highlight of my visit to the museum. As I continued to explore I discovered a small exhibit that housed works of art collected from the Sanctuary of Nymphe. The colors with which these works of art were created drew my eye, but my amazement grew with further observation. There was so much to unpack from those seemingly simple pieces. The piece that encapsulated me the most was the Dedication to Nymphe (as shown on the left).
+                <br><hr>
+                The first element of this piece that really drew me in was the cracks in the clay tablet. While not part of the "art" itself, the cracks exemplify the ancient nature of the work. The knowledge that I am observing a work of art developed greater than three thousand years ago is incredibly encapsulating. As stated earlier the use of color also draws me into this work because the colors that are present in Nymphe works are so far off from the majority of Hellenistic art. Finally, the depiction of nature specific to the Dedication of Nymphe is the most encapsulating component of the piece. Through its depiction this work of art can lend the viewer insights into how the ancient Greeks perceived their relationship with nature. Its combination of birds, doe, and vegetation signifies the Greeks view of a unified natural world. The apparent portrayal of the doe with its fawns further adds to the Greek view of the natural world. Additionally, the movement that is depicted via the galloping does and flying birds serves as evidence of Greek observation of the natural world. The noticeable age of the work, its iconic but alternative colors, and its depiction of nature make it extraordinarily encapsulating.
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Creative Project for <a target="new" href="http://www.edline.net/pages/ParkwayNorthHS/Teacher_Webpages/Cundiff_s_Webpage/My_Classes/Masterpieces_I_FS15">Masterpieces</a>, by <a href="mailto:phillipkheyfets@gmail.com">Phillip Kheyfets</a>.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Startup Modal -->
+    <div class="modal fade" id="startup-modal" tabindex="-1" role="dialog" aria-labelledby="startup-label">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h1 class="modal-title" id="startup-label">Masterpieces Creative Project</h4>
+          </div>
+          <div class="modal-body">
+          <h3>Hi Ms. Cundiff!</h3>
+
+          <p>This project was originally for the prompt "What piece of art or architecture from Classical or Hellenistic period encapsulates you?". Though I wanted to add a personal spin to it as well as make it more creative.</p>
+
+          <p>I begin my analysis with a narrative about our trip to Greece. In it, I discuss why just being in Athens was encapsulating. I go on to describe a piece that caught my eye at the Acropolis museum.</p>
+
+          <p>The other component of my project is this interface I designed. It provides two columns, one for the art piece and one for discourse on that art piece. The column with the art contains two rows, one with the full-view of the art piece and one with a zoomed-in view. I programmed the interface to allow for zooming functionality using the magnifying glass buttons.</p>
+
+          <p>If you want to see this pop-up again after closing it, just click on the "Dedication to Nymphe" heading.</p>
+
+          <h3>Phillip</h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/perfect-scrollbar.jquery.js"></script>
+    <script src="js/perfect-scrollbar.js"></script>
+
+    <script>
+    var el = document.getElementById("full-piece");
+    var wrap = document.getElementById("full-wrapper");
+
+    const fullPieceWidth = 4125;
+    const fullPieceMin = 300;
+
+
+    function init() {
+      el.style.width = "643px";
+
+      wrap.scrollTop += 170;
+      wrap.scrollLeft += 85;
+
+      Ps.initialize(wrap);
+    }
+
+    function zoomIn() {
+      var curWidth = parseInt(el.style.width);
+      var newWidth = curWidth;
+      if (curWidth >= fullPieceWidth) {
+        return false;
+      } else {
+        newWidth = curWidth * 1.1;
+      }
+      el.style.width = newWidth + "px";
+    }
+
+    function zoomOut() {
+      var curWidth = parseInt(el.style.width);
+      var newWidth = curWidth;
+      if (curWidth <= fullPieceMin) {
+        return false;
+      } else {
+        newWidth = curWidth * .9;
+      }
+      el.style.width = newWidth + "px";
+    }
+    </script>
+
+    <script>
+    $("#startup-modal").modal("show");
+    </script>
+  </body>
+</html>
